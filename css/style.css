@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, ol {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: inherit;
+}
+button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+/* reset */
+
+body{
+    background-color: #121212;
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: full axis;
+    font-style: normal;
+    color: #fff;
+}
+.container{
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+}
